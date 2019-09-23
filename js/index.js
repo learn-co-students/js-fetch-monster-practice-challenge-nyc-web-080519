@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     createMonster()
 })
 
+// creates the monster than submits a post req
 function createMonster(){
     monsterForm.addEventListener('submit', function(event){
         const monster = {
